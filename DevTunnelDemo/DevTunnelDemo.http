@@ -1,0 +1,11 @@
+@LocalHostAddress = https://localhost:7153
+@DevTunnelAddress = https://1234567890.devtunnels.ms
+
+GET {{DevTunnelAddress}}/isdevtunnel
+
+###
+
+
+GET {{LocalHostAddress}}/isdevtunnel
+
+###
